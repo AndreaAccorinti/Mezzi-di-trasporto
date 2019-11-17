@@ -12,7 +12,7 @@ public class ATrazioneUmana extends ATrazioneAnimale {
 
     //methods
     public void canta() {
-        // TODO implement here
+    	 System.out.println("LA LA LA");
     }
-
+    
 }
