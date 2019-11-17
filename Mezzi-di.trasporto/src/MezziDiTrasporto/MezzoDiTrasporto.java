@@ -14,12 +14,12 @@ public class MezzoDiTrasporto {
     private String posozioneGPS;
     private int numeroPasseggieri;
     private int numeroConducenti;
-    public boolean guidaAutonoma;
-    public float ingombro;
-    public float peso;
-    public float autonomia;
-    public Merce merce;
-    public float potenza;
+    private  boolean guidaAutonoma;
+    private  float ingombro;
+    private  float peso;
+    private  float autonomia;
+    private  Merce merce;
+    private  float potenza;
 
     
  
@@ -59,5 +59,101 @@ public class MezzoDiTrasporto {
     public void parcheggia() {
         // TODO implement here
     }
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public float getCosto() {
+		return costo;
+	}
+
+	public void setCosto(float costo) {
+		this.costo = costo;
+	}
+
+	public float getVelocita() {
+		return velocita;
+	}
+
+	public void setVelocita(float velocita) {
+		this.velocita = velocita;
+	}
+
+	public String getPosozioneGPS() {
+		return posozioneGPS;
+	}
+
+	public void setPosozioneGPS(String posozioneGPS) {
+		this.posozioneGPS = posozioneGPS;
+	}
+
+	public int getNumeroPasseggieri() {
+		return numeroPasseggieri;
+	}
+
+	public void setNumeroPasseggieri(int numeroPasseggieri) {
+		this.numeroPasseggieri = numeroPasseggieri;
+	}
+
+	public int getNumeroConducenti() {
+		return numeroConducenti;
+	}
+
+	public void setNumeroConducenti(int numeroConducenti) {
+		this.numeroConducenti = numeroConducenti;
+	}
+
+	public boolean isGuidaAutonoma() {
+		return guidaAutonoma;
+	}
+
+	public void setGuidaAutonoma(boolean guidaAutonoma) {
+		this.guidaAutonoma = guidaAutonoma;
+	}
+
+	public float getIngombro() {
+		return ingombro;
+	}
+
+	public void setIngombro(float ingombro) {
+		this.ingombro = ingombro;
+	}
+
+	public float getPeso() {
+		return peso;
+	}
+
+	public void setPeso(float peso) {
+		this.peso = peso;
+	}
+
+	public float getAutonomia() {
+		return autonomia;
+	}
+
+	public void setAutonomia(float autonomia) {
+		this.autonomia = autonomia;
+	}
+
+	public Merce getMerce() {
+		return merce;
+	}
+
+	public void setMerce(Merce merce) {
+		this.merce = merce;
+	}
+
+	public float getPotenza() {
+		return potenza;
+	}
+
+	public void setPotenza(float potenza) {
+		this.potenza = potenza;
+	}
 
 }

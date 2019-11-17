@@ -9,11 +9,19 @@ public class AMotoreElettrico extends AMotore {
     }
 
     
-    public String tipoBatteria;
+    private  String tipoBatteria;
 
     //methods
     public void cambiaBatteria() {
         // TODO implement here
     }
+
+	public String getTipoBatteria() {
+		return tipoBatteria;
+	}
+
+	public void setTipoBatteria(String tipoBatteria) {
+		this.tipoBatteria = tipoBatteria;
+	}
 
 }

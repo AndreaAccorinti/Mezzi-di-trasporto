@@ -9,8 +9,8 @@ public class AMotore extends MezzoDiTrasporto {
     }
 
 
-    public float temperaturaMotore;
-    public boolean avviato;
+    private  float temperaturaMotore;
+    private  boolean avviato;
 
     
     
@@ -28,5 +28,20 @@ public class AMotore extends MezzoDiTrasporto {
     public void ricarica() {
         // TODO implement here
     }
+
+
+	public float getTemperaturaMotore() {
+		return temperaturaMotore;
+	}
+
+
+	public void setTemperaturaMotore(float temperaturaMotore) {
+		this.temperaturaMotore = temperaturaMotore;
+	}
+
+
+	public void setAvviato(boolean avviato) {
+		this.avviato = avviato;
+	}
 
 }

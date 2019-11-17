@@ -8,8 +8,8 @@ public class AmbienteDifunzionamento {
     public AmbienteDifunzionamento() {
     }
     
-    public Ambiente primo;
-    public Ambiente secondo;
+    private  Ambiente primo;
+    private  Ambiente secondo;
     
 	public Ambiente getPrimo() {
 		return primo;
