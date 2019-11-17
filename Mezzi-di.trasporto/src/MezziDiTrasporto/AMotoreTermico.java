@@ -1,11 +1,5 @@
 package MezziDiTrasporto;
 
-
-import java.util.*;
-
-/**
- * 
- */
 public class AMotoreTermico extends AMotore {
 
     /**
@@ -14,29 +8,16 @@ public class AMotoreTermico extends AMotore {
     public AMotoreTermico() {
     }
 
-    /**
-     * 
-     */
+
     public String carburante;
-
-    /**
-     * 
-     */
     public float capacitaSerbatoioMassima;
-
-    /**
-     * 
-     */
     public float capacitaSerbatoioAttuale;
 
-    /**
-     * 
-     */
+
     public float emissioni;
 
-    /**
-     * 
-     */
+
+    //methods
     public void pulisciMotore() {
         // TODO implement here
     }

@@ -1,10 +1,5 @@
 package MezziDiTrasporto;
 
-import java.util.*;
-
-/**
- * 
- */
 public class Ruote {
 
     /**
@@ -13,14 +8,8 @@ public class Ruote {
     public Ruote() {
     }
 
-    /**
-     * 
-     */
+ 
     public int numero;
-
-    /**
-     * 
-     */
     public String materiale;
 
 

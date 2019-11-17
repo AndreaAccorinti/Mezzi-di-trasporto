@@ -1,11 +1,5 @@
 package MezziDiTrasporto;
 
-
-import java.util.*;
-
-/**
- * 
- */
 public class Merce {
 
     /**

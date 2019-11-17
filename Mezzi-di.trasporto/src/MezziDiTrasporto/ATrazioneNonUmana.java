@@ -1,11 +1,5 @@
 package MezziDiTrasporto;
 
-
-
-
-/**
- * 
- */
 public class ATrazioneNonUmana extends ATrazioneAnimale {
 
     /**
@@ -14,25 +8,13 @@ public class ATrazioneNonUmana extends ATrazioneAnimale {
     public ATrazioneNonUmana() {
     }
 
-    /**
-     * 
-     */
+    
     public Animale tipoAnimale;
-
-    /**
-     * 
-     */
     public boolean sellabile;
-
-    /**
-     * 
-     */
     public boolean sellato;
 
 
-    /**
-     * 
-     */
+    //methods
     public void nutri() {
         // TODO implement here
     }

@@ -1,11 +1,5 @@
 package MezziDiTrasporto;
 
-
-import java.util.*;
-
-/**
- * 
- */
 public class AMotore extends MezzoDiTrasporto {
 
     /**
@@ -14,33 +8,23 @@ public class AMotore extends MezzoDiTrasporto {
     public AMotore() {
     }
 
-    /**
-     * 
-     */
-    public float temperaturaMotore;
 
-    /**
-     * 
-     */
+    public float temperaturaMotore;
     public boolean avviato;
 
-    /**
-     * 
-     */
+    
+    
+    //methods
     public void isAvviato() {
         // TODO implement here
     }
 
-    /**
-     * 
-     */
+   
     public void cambiaAvviato() {
         // TODO implement here
     }
 
-    /**
-     * 
-     */
+    
     public void ricarica() {
         // TODO implement here
     }

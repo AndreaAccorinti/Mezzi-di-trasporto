@@ -1,11 +1,5 @@
 package MezziDiTrasporto;
 
-
-import java.util.*;
-
-/**
- * 
- */
 public class ATrazioneUmana extends ATrazioneAnimale {
 
     /**
@@ -14,14 +8,9 @@ public class ATrazioneUmana extends ATrazioneAnimale {
     public ATrazioneUmana() {
     }
 
-    /**
-     * 
-     */
     public String artoMotore;
 
-    /**
-     * 
-     */
+    //methods
     public void canta() {
         // TODO implement here
     }

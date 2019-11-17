@@ -1,11 +1,5 @@
 package MezziDiTrasporto;
 
-
-
-
-/**
- * 
- */
 public class Animale {
 
     /**

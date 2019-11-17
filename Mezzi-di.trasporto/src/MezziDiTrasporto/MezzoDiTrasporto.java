@@ -1,11 +1,5 @@
 package MezziDiTrasporto;
 
-
-import java.util.*;
-
-/**
- * 
- */
 public class MezzoDiTrasporto {
 
     /**
@@ -14,70 +8,21 @@ public class MezzoDiTrasporto {
     public MezzoDiTrasporto() {
     }
 
-    /**
-     * 
-     */
     private String nome;
-
-    /**
-     * 
-     */
     private float costo;
-
-    /**
-     * 
-     */
     private float velocita;
-
-    /**
-     * 
-     */
     private String posozioneGPS;
-
-    /**
-     * 
-     */
     private int numeroPasseggieri;
-
-    /**
-     * 
-     */
     private int numeroConducenti;
-
-    /**
-     * 
-     */
     public boolean guidaAutonoma;
-
-    /**
-     * 
-     */
     public float ingombro;
-
-    /**
-     * 
-     */
     public float peso;
-
-    /**
-     * 
-     */
     public float autonomia;
-
-    /**
-     * 
-     */
     public Merce merce;
-
-    /**
-     * 
-     */
     public float potenza;
 
-    /**
-     * 
-     */
-    public Set<AmbienteDifunzionamento> ambienteDiFunzionamento;
+    
+    public setAmbienteDifunzionamento() ambienteDiFunzionamento;
 
     /**
      * 
@@ -86,7 +31,7 @@ public class MezzoDiTrasporto {
 
 
 
-
+    //methods
     /**
      * @param quantita
      */

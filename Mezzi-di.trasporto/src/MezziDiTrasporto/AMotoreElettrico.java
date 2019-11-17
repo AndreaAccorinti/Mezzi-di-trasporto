@@ -1,11 +1,5 @@
 package MezziDiTrasporto;
 
-
-import java.util.*;
-
-/**
- * 
- */
 public class AMotoreElettrico extends AMotore {
 
     /**
@@ -14,14 +8,10 @@ public class AMotoreElettrico extends AMotore {
     public AMotoreElettrico() {
     }
 
-    /**
-     * 
-     */
+    
     public String tipoBatteria;
 
-    /**
-     * 
-     */
+    //methods
     public void cambiaBatteria() {
         // TODO implement here
     }
