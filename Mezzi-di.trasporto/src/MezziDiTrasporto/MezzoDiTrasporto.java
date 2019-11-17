@@ -22,12 +22,12 @@ public class MezzoDiTrasporto {
     public float potenza;
 
     
-    public setAmbienteDifunzionamento() ambienteDiFunzionamento;
+   // public setAmbienteDifunzionamento() ambienteDiFunzionamento;
 
     /**
      * 
      */
-    public Set<Ruote> ruotre;
+    //public Set<Ruote> ruotre;
 
 
 
