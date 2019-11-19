@@ -10,6 +10,7 @@ public class _ProgrammaMezziDiTrasporto {
     ATrazioneUmana portantina = new ATrazioneUmana();
     portantina.canta();
     
+    
 	}
 
 }
