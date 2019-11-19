@@ -7,6 +7,9 @@ public class _ProgrammaMezziDiTrasporto {
     ATrazioneUmana vetturino= new  ATrazioneUmana();
     vetturino.canta();
     
+    ATrazioneUmana portantina = new ATrazioneUmana();
+    portantina.canta();
+    
 	}
 
 }
