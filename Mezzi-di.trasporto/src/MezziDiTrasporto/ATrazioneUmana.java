@@ -5,14 +5,25 @@ public class ATrazioneUmana extends ATrazioneAnimale {
     /**
      * Default constructor
      */
-    public ATrazioneUmana() {
+	private String canzone;
+	
+    public String getCanzone() {
+		return canzone;
+	}
+  
+
+	public void setCanzone(String canzone) {
+		this.canzone = canzone;
+	}
+
+	public ATrazioneUmana() {
     }
 
     private  String artoMotore;
-
+    
     //methods
-    public void canta() {
-    	 System.out.println("LA LA LA");
+    public  void canta(String canzone) {
+    	 System.out.println( canzone);
     }
 
 	public String getArtoMotore() {
